@@ -1,7 +1,10 @@
 package giadatonni.CONSEGNA_S17L2.entities;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Component
 public class Menu {
     private List<Pizza> listaPizze;
     private List<Topping> listaTopping;

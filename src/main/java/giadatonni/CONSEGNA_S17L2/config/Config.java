@@ -84,12 +84,5 @@ public class Config {
     public Bevande vino(){
         return new Bevande("Vino", 607, 7.5, 13, 0.75);
     }
-
-    @Bean
-    public Menu menu(){
-        List<Pizza> listaPizze = new ArrayList<>(Arrays.asList(margherita(), pizzaAnanas(), pizzaCipolle(), pizzaSalame()));
-        List<Topping> listaTopping = new ArrayList<>(Arrays.asList(pomodoro(), mozzarella(), cipolle(), prosciutto(), salame(), ananas()));
-        List<Bevande> listaBevande = new ArrayList<>(Arrays.asList(acqua(), cocaCola(), vino()));
-        return new Menu(listaPizze, listaTopping, listaBevande);
-    }
+    
 }
