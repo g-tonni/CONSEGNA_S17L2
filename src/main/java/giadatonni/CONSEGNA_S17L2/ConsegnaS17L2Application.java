@@ -16,7 +16,7 @@ public class ConsegnaS17L2Application {
 		SpringApplication.run(ConsegnaS17L2Application.class, args);
 
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(ConsegnaS17L2Application.class);
-		System.out.println("Eccoci nel ma");
+		System.out.println("Eccoci nel main");
 	}
 
 }
